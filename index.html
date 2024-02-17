@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiva's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93a80cb7e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/dhivakaranlogo1.png" alt="Error" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="https://drive.google.com/file/d/1iQwsLPRbIhVouZBL78UbtjDL0eEfNj-C/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst</p>
+            <h1>Hi, I'm <span>Dhivakaran</span> </h1>
+        </div>
+    </div>
+</div>
+<!------------------------------------about--------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/ace.png" alt="none" class="abouts">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm fascinated by the power of data to reveal hidden patterns and insights. It's like looking through a telescope and seeing the universe in a whole new light. As a data science student at Panimalar institute of technology, I'm learning the tools and techniques to extract meaning from data. I'm particularly interested in natural language processing and its potential to revolutionize the way we interact with computers.
+                   In my free time, I love tinkering with open-source data science projects and exploring new datasets. I'm also an avid reader of science fiction, which I believe fuels my creativity and imagination when it comes to thinking about the future of AI.</p>
+                   
+                <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div> 
+            
+                <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                      <li><span>Programming Skills</span><br><ul><li>PYTHON: Proficient in Python programming for data analysis tasks, including data wrangling with Pandas, visualization with Matplotlib, and basic statistical analysis with NumPy.</li>
+                                                                <li>SQL: Confidently write and execute SQL queries to extract, transform, and analyze data for various data analytics projects</li>
+                                                                <li>R PROGRAMMING: Proficient in R programming for data manipulation, analysis, and visualization.</li></ul></li>
+                      <li><span>Pearsonal skills</span><br><ul>
+                                            <li>Problem-solving: "Highly resourceful problem-solver, consistently finding innovative solutions to complex technical challenges, reducing production downtime by 20%."</li>
+                                            <li>Adaptability: "Highly adaptable and eager to learn, quickly mastering new software and procedures, contributing to operational efficiency improvements."</li>
+                                            </ul></li>
+                      <li><span>Tools</span><br><ul>
+                        <li>TABLEAU</li>
+                        <li>POWERBI</li>
+                      </ul>ADVANCED EXCEL</li>
+                     </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                     <li><span>internship</span><br>Virtual Artificial intelligence/Machine learning Internship at internpe(2023). Did several projects using Artificial intelligence.</li>
+                     <li><span>Course and Certifications</span><ul>
+                        <li>•	Data analysis with R programming in coursera associated with Google.</li>
+                        <li>•	Data visualization using python in Infosys.</li>
+                        <li>•	AMCAT Certified Data processing Specialist.</li>
+                        <li>•	Python for Data Science in Infosys Springboard.</li>
+
+
+                     </ul></li>
+                    </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                 <ul>
+                   <li><span>College</span><br><ul><li>Panimalar institute of technology</li> <li>B.tech in Artificial intelligence and Data Science</li> <li>Current CGPA: 8.44</li></ul></li>
+                   <li><span>School</span><br><ul><li>Gangaadaraa</li>
+                                                <li>Bio-maths</li>
+                                                <li>Percentage: 75%</li></ul></li>
+                 </ul>
+               </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------------------------services---------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-eye"></i>
+                <h2>Object detection</h2>
+                <p>Object detection using yolo dataset to discover and voice conversion of that object</p>
+                <a href="https://github.com/Dhivakar813/Object-detection.git" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Portfolio</h2>
+                <p>This is a portfolio of my work</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <h2>Spam detection</h2>
+                <p>Classification of Email into spam and ham</p>
+                <a href="https://github.com/Dhivakar813/Email-spam-detection.git" target="_blank">Learn more</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+</div>
+<!-------------contact------------- -->
+
+     <!-- <video autoplay loop muted plays-inline width="100%">
+        <source src="/images/vegeta.mp4" type="video/mp4">
+    </video> -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dhivakarank813@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6379400967</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dhivakaran_dk?igsh=MTNicm9wOTA4MmFheQ==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dhivakar813?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Dhivakar813" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="Discordapp.com/users/791148711827734539" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="copyright">
+        <p>© dhivakaran <i class="fa-solid fa-heart"></i> </p>
+    </div>
+
+
+
+
+</div>
+
+<!------------------------javascript------------------------>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAz2e68ekLppmM874HvSBPgoPqlyUsszPt3GR9Xon5xvnzO6hIq07rqNooUvB0SvoQMw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
